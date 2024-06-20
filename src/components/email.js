@@ -76,11 +76,12 @@ const Email = () => {
 
   return (
     <div>
+      //This is whole parent box having both left and right side contents.
       <div className='container'>
+      //This is first child contains the left content like form,titlt and about.
         <div className="container-1 title">
                 <div className="box-1">
                     <img src={Ez} alt="" className="logo" />
-                    
                 </div>
                 <div className="box-2">
                     <p>Suite of Business Support Services</p>
@@ -97,6 +98,7 @@ const Email = () => {
                     </form>
                 </div>
         </div>
+    //this is the right box second child of container having all the blue boxes and these blue boxes are child of it name box-n. (n>0 and n<7).
         <div className="container-2">
                 <div className="box-1 conteinter-2-box">
                     <img src={Presentation} alt="" className="presentation box-1-img" />
@@ -108,6 +110,7 @@ const Email = () => {
                        sit amet Lorem ipsum dolor, sit amet
                     </p>
                 </div>
+    
                 <div className="box-2 conteinter-2-box">
                     <img src={Audio} alt="" className="audio box-2-img" />
                     <p className='para-1'>
@@ -118,6 +121,7 @@ const Email = () => {
                        sit amet Lorem ipsum dolor, sit amet
                     </p>
                 </div>
+    
                 <div className="box-3 conteinter-2-box">
                      <img src={Translation} alt="" className="translation box-3-img" />
                     <p className='para-1'>
@@ -128,6 +132,7 @@ const Email = () => {
                        sit amet Lorem ipsum dolor, sit amet
                     </p>
                 </div>
+    
                 <div className="box-4 conteinter-2-box">
                     <img src={Design} alt="" className="graphic box-4-img" />
                     <p className='para-1'>
@@ -138,6 +143,7 @@ const Email = () => {
                        sit amet Lorem ipsum dolor, sit amet
                     </p>
                 </div>
+    
                 <div className="box-5 conteinter-2-box">
                     <img src={Research} alt="" className="reasearch box-5-img" />
                     <p className='para-1'>
@@ -148,6 +154,7 @@ const Email = () => {
                        sit amet Lorem ipsum dolor, sit amet
                     </p>
                 </div>
+    
                 <div className="box-6 conteinter-2-box">
                     <img src={Data} alt="" className="data box-6-img" />
                     <p className='para-1'>
