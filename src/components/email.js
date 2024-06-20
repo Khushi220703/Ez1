@@ -21,7 +21,7 @@ const Email = () => {
 
       // handling form after submit.
     const handleSubmit = async (e) =>
-    {  setError("");
+    {  
         e.preventDefault();
        
         if(!emails)
