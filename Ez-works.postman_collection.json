@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "30d4d550-c698-43f1-9c43-311a6cf99779",
+		"name": "Ez-works",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32158702"
+	},
+	"item": [
+		{
+			"name": "work",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"kj@gmail.com\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://34.225.132.160:8002/api"
+			},
+			"response": []
+		}
+	]
+}

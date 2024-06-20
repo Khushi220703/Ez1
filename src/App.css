@@ -1,0 +1,321 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*adding css to another box.*/
+.container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    margin-top: 8%;
+
+}
+
+.container-1
+{
+  width: 30%;
+  padding: 2%;
+  margin-right: 5px;
+ 
+}
+
+.logo
+{
+  width: 60%;
+  height: 20%;
+}
+
+.container-1 .box-2
+{
+  font: normal normal normal 48px/58px Exo 2.0;
+  font-size: 148%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #112949;
+}
+
+.container-1 .box-3
+{
+  font: normal normal normal 48px/58px Exo 2.0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #112949;
+}
+
+input
+{
+  width: 65%;
+  height: 35px;
+  margin-top: 3px;
+  margin-right: 10px;
+  border: 1.4px solid grey;
+  border-radius: 5px;
+  padding: 2px;
+  
+  
+}
+ button
+ {
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #EA7B2C;
+  border: 1px solid #EA7B2C;
+  color: white;
+  font-weight: 600;
+ }
+.container-2
+{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.conteinter-2-box
+{
+  width: 29%;
+  background-color: #112949;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px;
+  
+}
+
+.conteinter-2-box  .para-1
+{
+  color: #3CC3F2;
+  display: inline;
+  position: relative;
+  left: 15px;
+  bottom: 30px;
+  font-size: larger;
+}
+
+.conteinter-2-box .para-2
+{
+  color: white;
+}
+
+.conteinter-2-box img
+{ 
+  width: 20%;
+ display: inline;
+  
+}
+
+/* making the site responsive */
+@media only screen and (max-width:450px) {
+
+  .container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-top: 8%;
+
+}
+
+.container-1
+{
+  width: 100%;
+  padding: 2%;
+  margin:auto;
+ 
+ 
+}
+
+.container-2
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 40px;
+  
+}
+.conteinter-2-box
+{
+  width: 75%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+
+.logo
+{
+  width: 80%;
+  height: 20%;
+  margin: 20px;
+}
+
+  
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:451px) and (max-width:650px) {
+
+  .container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-top: 8%;
+
+}
+
+.container-1
+{
+  width: 90%;
+  padding: 2%;
+ 
+ 
+ 
+}
+
+.container-2
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 40px;
+  
+}
+.conteinter-2-box
+{
+  width: 70%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 7px;
+  
+}
+
+.logo
+{
+  width: 80%;
+  height: 20%;
+  margin: 20px;
+}
+
+  
+}
+
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:651px) and (max-width:850px) {
+
+  .container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-top: 8%;
+
+}
+
+.container-1
+{
+  width: 80%;
+  padding: 2%;
+  margin:auto;
+ 
+ 
+}
+
+.container-2
+{
+  width: 90%;
+  margin: 10%;
+  margin-left: 12%;
+  
+}
+.conteinter-2-box
+{
+ 
+  width: 40%;
+  height: 150px;
+  margin: 5px;
+}
+
+.logo
+{
+  width: 60%;
+  height: 10%;
+  margin: 10px;
+}
+
+  
+}
+/*-------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:851) and (max-width:1050px) {
+
+  .container
+{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    margin-top: 8%;
+
+}
+
+.container-1
+{
+  width: 25%;
+  padding: 2%;
+  margin-right: 5px;
+ 
+}
+
+.container-2
+{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+
+.conteinter-2-box
+{
+  width: 29%;
+  background-color: #112949;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 7px;
+  
+}
+
+.logo
+{
+  width: 80%;
+  height: 10%;
+  margin: 10px;
+}
+
+.conteinter-2-box img
+{ 
+  width: 25%;
+  margin: 2%;
+  display: inline-block;
+  
+}
+
+input
+{
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+ button
+ {
+  width: 70%;
+  height: 35px;
+  
+ }
+
+  
+}
